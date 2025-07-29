@@ -1,0 +1,12 @@
+alias la='ls -a'
+alias c='clear'
+
+alias install='sudo dnf install'
+alias upgrade='sudo dnf upgrade'
+alias remove='sudo dnf remove'
+
+alias gs='git status'
+alias gc='git commit -m'
+alias ga='git add'
+
+fastfetch
