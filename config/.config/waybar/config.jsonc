@@ -1,0 +1,65 @@
+{
+    "position": "top",
+    "layer": "top",
+    "height": 30,
+    "margin-top": 0,
+    "margin-bottom": 0,
+    "margin-left": 0,
+    "margin-right": 0,
+    "modules-left": ["battery", "pulseaudio"],
+    "modules-center": ["hyprland/workspaces"],
+    "modules-right": [ "clock"],
+    
+    
+	"clock": {
+		"format": " {:%H:%M}",
+		"tooltip": "true",
+        	"tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
+        	"format-alt": " {:%d/%m}"
+	},
+	
+
+	"hyprland/workspaces": {
+        "active-only": false,
+        "all-outputs": true,
+        "disable-scroll": true,
+		"format": "{icon}",
+		"on-click": "activate",
+		"format-icons": {
+			"1": "1",
+			"2": "2",
+			"3": "3",
+			"4": "4",
+			"5": "5",
+            "6": "6",
+			"7": "7",
+			"8": "8",
+			"9": "9",
+			"10": "10",
+			"urgent": "U",
+			"active": "[H]",
+			"default": "W",
+            "sort-by-number": true
+        }
+    },
+
+
+	"battery": {
+        "states": {
+            "good": 95,
+            "warning": 30,
+            "critical": 15
+        },
+        "format":"{icon}  {capacity}%",
+        "format-charging": "{capacity}% ",
+        "format-plugged": "{capacity}% ",
+        "format-alt": "{icon} {time}",
+        "format-icons": ["🔋"]
+	},
+	
+
+	"pulseaudio": {
+		"format": "{icon} {volume}%",
+        "format-icons": ["🔊"]
+    }
+}

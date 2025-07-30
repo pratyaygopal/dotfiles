@@ -1,0 +1,71 @@
+* {
+    border: none;
+    border-radius: 0px;
+    font-family: Adwaita Sans;
+    font-size: 12px;
+    font-style: normal;
+    min-height: 0;
+}
+
+window#waybar {
+    background: rgba(0, 0, 0, 0);
+    color: #000000;
+}
+
+#workspaces {
+	background: #000000;
+	margin: 5px 5px ;
+    padding: 5px 5px ;
+	border-radius: 16px;
+    border: solid 0px #ffffff;
+    font-weight: bold;
+    font-style: normal;
+}
+#workspaces button {
+    padding: 0px 5px;
+    border-radius: 16px;
+    color: #ffffff;
+}
+
+#workspaces button.active {
+    color: #ffffff;
+    background-color: transparent;
+    border-radius: 16px;
+}
+
+#workspaces button:hover {
+	background-color: #ffffff;
+	color: black;
+	border-radius: 16px;
+}
+
+
+#clock {
+    color: #ffffff;
+    background-color: #000000;
+    border-radius: 24px 24px 24px 24px;
+    margin: 5px 5px ;
+    padding: 5px 5px ;
+    font-weight: bold;
+}
+
+
+#battery {
+    margin: 5px 5px ;
+    padding: 5px 5px ;
+    font-weight: bold;
+    background-color: #000000;
+    color: #ffffff;
+    border-radius: 24px 24px 24px 24px;
+}
+
+
+#pulseaudio {
+    margin: 5px 5px ;
+    padding: 5px 5px ;
+    font-weight: bold;
+    background-color: #000000;
+    color: #ffffff;
+    border-radius: 24px 24px 24px 24px;
+}
+

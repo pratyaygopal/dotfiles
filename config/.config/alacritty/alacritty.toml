@@ -1,0 +1,45 @@
+[colors.primary]
+background = "#000000"
+foreground = "#CCCCCC"
+
+[colors.cursor]
+cursor = "#aa5555"
+
+[colors.normal]
+black   = '#aaaaaa'
+red     = '#bb4444'
+green   = '#4444bb'
+yellow  = '#dd4444'
+blue    = '#aa5555'
+magenta = '#2266dd'
+cyan    = '#4444dd'
+white   = '#eeeeee'
+
+[colors.bright]
+black   = '#bbbbbb'
+red     = '#cc5555'
+green   = '#5555cc'
+yellow  = '#ee5555'
+blue    = '#bb4444'
+magenta = '#3377ee'
+cyan    = '#5555ee'
+white   = '#ffffff'
+
+[colors.selection]
+text = "#111111"
+background = "#CCCCCC"
+
+[window]
+opacity = 0.75
+decorations = "none"
+blur = true
+padding = {x = 0, y = 0}
+
+[window.dimensions]
+columns = 255
+lines = 63
+
+[font]
+size = 14.0
+normal = { family = "Adwaita mono", style = "regular" }
+builtin_box_drawing = true
