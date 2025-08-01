@@ -1,33 +1,33 @@
 [colors.primary]
 background = "#000000"
-foreground = "#CCCCCC"
+foreground = "#dddddd"
 
 [colors.cursor]
-cursor = "#aa5555"
+cursor = '#ff4949'
 
 [colors.normal]
 black   = '#aaaaaa'
-red     = '#bb4444'
-green   = '#4444bb'
-yellow  = '#dd4444'
-blue    = '#aa5555'
+red     = '#dd1717'
+green   = '#0f4392'
+yellow  = '#ff4949'
+blue    = '#aa0202'
 magenta = '#2266dd'
 cyan    = '#4444dd'
 white   = '#eeeeee'
 
 [colors.bright]
-black   = '#bbbbbb'
-red     = '#cc5555'
-green   = '#5555cc'
-yellow  = '#ee5555'
-blue    = '#bb4444'
-magenta = '#3377ee'
-cyan    = '#5555ee'
-white   = '#ffffff'
+black   = '#aaaaaa'
+red     = '#dd1717'
+green   = '#0f4392'
+yellow  = '#ff4949'
+blue    = '#aa0202'
+magenta = '#2266dd'
+cyan    = '#4444dd'
+white   = '#eeeeee'
 
 [colors.selection]
-text = "#111111"
-background = "#CCCCCC"
+text = "#000000"
+background = "#dddddd"
 
 [window]
 opacity = 0.75
