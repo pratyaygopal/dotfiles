@@ -76,8 +76,8 @@
     "states": {"good": 95, "warning": 30, "critical": 20},
     
     "format": "[{capacity}%]",
-    "format-charging": "C ",
-    "format-plugged": "C ",
+    "format-charging": "[C:{time}]",
+    "format-plugged": "[P:{time}]",
     "format-alt": "{time}"
 
 },

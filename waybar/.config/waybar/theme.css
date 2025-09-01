@@ -4,7 +4,7 @@
 @define-color border-alt @fg-main;
 
 /* Background Colors */
-@define-color bg-main #11111B;
+@define-color bg-main #1B1111;
 @define-color bg-alt #939CDA;
 @define-color bg-hover #484872;
 @define-color bg-hover-alt #30304D;
@@ -14,7 +14,7 @@
 @define-color sway-bg @bg-main;
 
 /*text color for entries, views and content in general */
-@define-color fg-main #B4BEFE;
+@define-color fg-main #B41111;
 @define-color fg-unactive @bg-hover;
 @define-color content-act #CDD4FF;
 
