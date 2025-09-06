@@ -83,6 +83,5 @@
     ]
     }
     ],
-    "git.confirmSync": false,
-    "workbench.colorTheme": "Red"
+    "git.confirmSync": false
 }

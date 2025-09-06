@@ -1,5 +1,5 @@
 
-alias lla='la -l'
+alias lla='ls -al'
 alias c='clear'
 
 alias install='sudo dnf install'
