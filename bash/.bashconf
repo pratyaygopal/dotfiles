@@ -10,6 +10,6 @@ alias gs='git status'
 alias gc='git commit -m'
 alias ga='git add'
 
-PS1='\[\e[38;5;160m\][\[\e[38;5;45m\]\u\[\e[38;5;160m\]@\[\e[38;5;81m\]framework\[\e[38;5;160m\]]\[\e[0m\] \w '
+PS1="\[$(tput setaf 124)\][\[$(tput setaf 33)\]\u\[$(tput setaf 124)\]@\[$(tput setaf 33)\]framework\[$(tput setaf 124)\]] \[$(tput setaf 124)\][\[$(tput setaf 33)\]\w\[$(tput setaf 124)\]] \[$(tput setaf 124)\]$ "
 
 fastfetch

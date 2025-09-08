@@ -28,3 +28,4 @@ if [ -f ~/.bashconf ]; then
     . ~/.bashconf
 fi
 
+PATH=/opt/toolchains/riscv/bin/:/home/poiku/.local/bin:/home/poiku/bin:/usr/local/bin:/usr/bin
