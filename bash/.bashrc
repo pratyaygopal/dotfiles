@@ -28,4 +28,6 @@ if [ -f ~/.bashconf ]; then
     . ~/.bashconf
 fi
 
-PATH=/opt/toolchains/riscv/bin/:/home/poiku/.local/bin:/home/poiku/bin:/usr/local/bin:/usr/bin
+export PATH=$PATH:/opt/toolchains/riscv/bin/
+
+PATH=/opt/toolchains/riscv/bin/:/home/poiku/.local/bin:/home/poiku/bin:/usr/local/bin:/usr/bin:/opt/toolchains/riscv/bin/:/opt/toolchains/riscv/bin/

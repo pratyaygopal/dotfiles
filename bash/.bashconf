@@ -12,4 +12,6 @@ alias ga='git add'
 
 PS1="\[$(tput setaf 124)\][\[$(tput setaf 33)\]\u\[$(tput setaf 124)\]@\[$(tput setaf 33)\]framework\[$(tput setaf 124)\]] \[$(tput setaf 124)\][\[$(tput setaf 33)\]\w\[$(tput setaf 124)\]] \[$(tput setaf 124)\]$ "
 
+alias ssh391='ssh -X pratyay2@eceb-3026.ews.illinois.edu'
+
 fastfetch
