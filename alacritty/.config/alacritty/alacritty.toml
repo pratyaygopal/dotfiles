@@ -41,5 +41,5 @@ lines = 63
 
 [font]
 size = 14.0
-normal = { family = "Adwaita mono", style = "regular" }
-builtin_box_drawing = true
+#normal = { family = "Adwaita mono", style = "regular" }
+#builtin_box_drawing = true
