@@ -1,5 +1,6 @@
 
 alias lla='ls -al'
+alias ll='ls -l'
 alias c='clear'
 
 alias install='sudo dnf install'
