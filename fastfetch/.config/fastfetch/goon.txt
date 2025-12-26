@@ -1,5 +1,5 @@
                                                   
-                  GGGGGGGGGG
+                  GGGGGGGGGG                      
               GGGGGGGGGGGGGGGGGG                  
            GGGGG             GGGGG                
          GGGGG                  GGGG              
@@ -17,7 +17,7 @@
         GGG                   GGGGG               
          GGGG                 GGGGG               
           GGGGG               GGGGG               
-             GGGGGG         GGGGG                
+             GGGGGG         GGGGG                 
                 GGGGGGGGGGGGGGG                   
-                                                  
+                    GGGGGGGG                      
                                                   
