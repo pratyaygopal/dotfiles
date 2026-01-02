@@ -5,11 +5,7 @@
         "type": "auto"
     },
   "modules": [
-    {
-      "type": "title",
-      "format": "poiku@framework",
-      "key": " "
-    },
+    "title",
     "separator",
     {
       "type": "os",
