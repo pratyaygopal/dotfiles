@@ -12,6 +12,8 @@ alias gc='git commit -m'
 alias ga='git add'
 alias gp='git push'
 
+alias distrobox='db'
+
 PS1="\[$(tput setaf 124)\][\[$(tput setaf 33)\]\u\[$(tput setaf 124)\]@\[$(tput setaf 33)\]\h\[$(tput setaf 124)\]] \[$(tput setaf 124)\][\[$(tput setaf 33)\]\w\[$(tput setaf 124)\]] \[$(tput setaf 255)\]$ "
 
 if (env | grep -Fq 'DISTROBOX'); then
@@ -22,7 +24,5 @@ alias ssh391='ssh -CYJ pratyay2@linux.ews.illinois.edu pratyay2@eceb-3026.ews.il
 
 alias ssh427-1='ssh -CYJ pratyay2@linux.ews.illinois.edu pratyay2@ece-498hk-01.ece.illinois.edu'
 
-alias ssh427-2='ssh -CYJ pratyay2@linux.ews.illinois.edu pratyay2@ece-498hk-02.ece.illinois.edu'
 
-alias ssh427-3='ssh -CYJ pratyay2@linux.ews.illinois.edu pratyay2@ece-498hk-03.ece.illinois.edu'
 fastfetch
