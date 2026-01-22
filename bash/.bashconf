@@ -12,7 +12,7 @@ alias gc='git commit -m'
 alias ga='git add'
 alias gp='git push'
 
-alias distrobox='db'
+alias db='distrobox'
 
 PS1="\[$(tput setaf 124)\][\[$(tput setaf 33)\]\u\[$(tput setaf 124)\]@\[$(tput setaf 33)\]\h\[$(tput setaf 124)\]] \[$(tput setaf 124)\][\[$(tput setaf 33)\]\w\[$(tput setaf 124)\]] \[$(tput setaf 255)\]$ "
 
