@@ -14,15 +14,11 @@ alias gp='git push'
 
 alias db='distrobox'
 
+## some terminal prompt stuff
 PS1="\[$(tput setaf 124)\][\[$(tput setaf 33)\]\u\[$(tput setaf 124)\]@\[$(tput setaf 33)\]\h\[$(tput setaf 124)\]] \[$(tput setaf 124)\][\[$(tput setaf 33)\]\w\[$(tput setaf 124)\]] \[$(tput setaf 255)\]$ "
 
 if (env | grep -Fq 'DISTROBOX'); then
     PS1="\[$(tput setaf 124)\][\[$(tput setaf 33)\]\u\[$(tput setaf 124)\]@\[$(tput setaf 33)\]\$CONTAINER_ID\[$(tput setaf 124)\]] \[$(tput setaf 124)\][\[$(tput setaf 33)\]\w\[$(tput setaf 124)\]] \[$(tput setaf 255)\]$ "
 fi
-
-alias ssh391='ssh -CYJ pratyay2@linux.ews.illinois.edu pratyay2@eceb-3026.ews.illinois.edu'
-
-alias ssh427-1='ssh -CYJ pratyay2@linux.ews.illinois.edu pratyay2@ece-498hk-01.ece.illinois.edu'
-
 
 fastfetch
