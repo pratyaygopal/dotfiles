@@ -21,4 +21,20 @@ if (env | grep -Fq 'DISTROBOX'); then
     PS1="\[$(tput setaf 124)\][\[$(tput setaf 33)\]\u\[$(tput setaf 124)\]@\[$(tput setaf 33)\]\$CONTAINER_ID\[$(tput setaf 124)\]] \[$(tput setaf 124)\][\[$(tput setaf 33)\]\w\[$(tput setaf 124)\]] \[$(tput setaf 255)\]$ "
 fi
 
+srcconda() {
+    export PATH="$PATH:/snap/bin"
+    __conda_setup="$('/usr/bin/conda' 'shell.bash' 'hook' 2> /dev/null)"
+    
+    if [ $? -eq 0 ]; then
+        eval "$__conda_setup"
+    else
+        if [ -f "/usr/etc/profile.d/conda.sh" ]; then
+            . "/usr/etc/profile.d/conda.sh"
+        else
+            export PATH="/usr/bin:$PATH"
+        fi
+    fi
+    unset __conda_setup
+}
+
 fastfetch
